@@ -1,0 +1,267 @@
+{
+  "name": "shower_sim",
+  "timeout": 600,
+  "description": {
+    "config": {
+      "category": "Struct",
+      "fields": [
+        {
+          "name": "initial_electrical_resistence_fraction",
+          "type": {
+            "category": "Number",
+            "defaultValue": 0,
+            "comment": ""
+          }
+        },
+        {
+          "name": "initial_gas_boiler_fraction",
+          "type": {
+            "category": "Number",
+            "defaultValue": 0,
+            "comment": ""
+          }
+        },
+		{
+          "name": "initial_hot_valve_opening",
+          "type": {
+            "category": "Number",
+            "defaultValue": 0,
+            "comment": ""
+          }
+        },
+		{
+          "name": "initial_cold_valve_opening",
+          "type": {
+            "category": "Number",
+            "defaultValue": 0,
+            "comment": ""
+          }
+        },
+		{
+          "name": "initial_out_valve_opening",
+          "type": {
+            "category": "Number",
+            "defaultValue": 0,
+            "comment": ""
+          }
+        },
+		{
+          "name": "initial_disturbance_current_flow",
+          "type": {
+            "category": "Number",
+            "defaultValue": 0,
+            "comment": ""
+          }
+        },
+		{
+          "name": "initial_disturbance_temperature",
+          "type": {
+            "category": "Number",
+            "defaultValue": 0,
+            "comment": ""
+          }
+        },
+		{
+          "name": "initial_room_temperature",
+          "type": {
+            "category": "Number",
+            "defaultValue": 0,
+            "comment": ""
+          }
+        },
+		{
+          "name": "initial_conditions",
+          "type": {
+            "category": "Number",
+            "defaultValue": 0,
+            "comment": ""
+          }
+        },
+		{
+          "name": "initial_setpoint_tank_level",
+          "type": {
+            "category": "Number",
+            "defaultValue": 0,
+            "comment": ""
+          }
+        }
+      ]
+    },
+    "action": {
+      "category": "Struct",
+      "fields": [
+        {
+          "name": "hot_valve_opening",
+          "type": {
+            "category": "Number",
+            "start": 0,
+            "stop": 1
+          }
+        },
+		{
+          "name": "out_valve_opening",
+          "type": {
+            "category": "Number",
+            "start": 0,
+            "stop": 1
+          }
+        },
+		{
+          "name": "electrical_resistence_fraction",
+          "type": {
+            "category": "Number",
+            "start": 0,
+            "stop": 100
+          }
+        },
+		{
+          "name": "gas_boiler_fraction",
+          "type": {
+            "category": "Number",
+            "start": 0,
+            "stop": 100
+          }
+        },
+        {
+          "name": "setpoint_tank_level",
+          "type": {
+            "category": "Number",
+            "start": 50,
+            "stop": 70
+          }
+        }
+      ]
+    },
+    "state": {
+      "category": "Struct",
+      "fields": [
+	    {
+          "name": "electrical_resistence_fraction",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+		{
+          "name": "gas_boiler_fraction",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+		{
+          "name": "hot_valve_opening",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+		{
+          "name": "cold_valve_opening",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+		{
+          "name": "out_valve_opening",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+		{
+          "name": "disturbance_current_flow",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+		{
+          "name": "disturbance_temperature",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+		{
+          "name": "room_temperature",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+		{
+          "name": "setpoint_tank_level",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+		{
+          "name": "tank_level",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+    {
+          "name": "final_temperature",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+    {
+          "name": "flow_out",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+    {
+          "name": "final_boiler_temperature",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+    {
+          "name": "final_temperature_tank",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+		{
+          "name": "quality_of_shower",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+		{
+          "name": "electrical_cost_shower",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+		{
+          "name": "gas_cost_shower",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        },
+    {
+          "name": "cost_water",
+          "type": {
+            "category": "Number",
+            "comment": ""
+          }
+        }
+      ]
+    }
+  }
+}

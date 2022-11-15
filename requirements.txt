@@ -1,0 +1,7 @@
+microsoft-bonsai-api
+git+https://github.com/microsoft/bonsai-common
+matplotlib
+numpy
+scipy
+python-dotenv
+dataclasses
